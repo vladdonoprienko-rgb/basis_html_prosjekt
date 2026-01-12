@@ -1,0 +1,14 @@
+/* Minimal dummy CSS */
+:root {
+  --brand: #0d6efd; /* Bootstrap primary */
+}
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Eksempel: liten accent på overskrift */
+h1 {
+  border-left: 6px solid var(--brand);
+  padding-left: .75rem;
+}
